@@ -5,7 +5,8 @@ from dotenv import load_dotenv
 from telethon.sessions import StringSession
 import os
 
-load_dotenv(dotenv_path="./config.env")
+# load_dotenv(dotenv_path="./config.env")
+load_dotenv()
 
 API_ID = int(os.getenv("ID"))
 phone = str(os.getenv("phone"))

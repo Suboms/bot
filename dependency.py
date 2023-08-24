@@ -5,6 +5,8 @@ import requests
 import base64
 import os
 from dotenv import load_dotenv
+# load_dotenv(dotenv_path="./config.env")
+load_dotenv()
 
 config = "https://raw.githubusercontent.com/Suboms/json-files/main/user_data.json"
 response = requests.get(config)
